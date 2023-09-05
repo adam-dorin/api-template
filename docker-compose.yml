@@ -1,0 +1,9 @@
+services:
+
+  db:
+    image: postgres
+    restart: 'no'
+    environment:
+      POSTGRES_PASSWORD: localPass
+    ports:
+      - 2345:5432
