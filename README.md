@@ -15,6 +15,7 @@ docker-compose up -d
 * Remove the migrations from .gitignore
 * Add your git remote
 * Change `apiTemplate` in `schema.prisma` to your db name
+* Change `apiTemplate` in `.env.example` `>` `DATABASE_URL` to your db name
 
 ```bash
 # create .env file
